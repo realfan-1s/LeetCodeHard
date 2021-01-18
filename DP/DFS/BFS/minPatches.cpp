@@ -19,6 +19,8 @@ public:
         long curr = 1;
 
         while (curr <= n){
+            // index > len - 1指的是数组内所有数字求和后仍<= n
+            // nums[index] > curr 指的是在数组内有缺失的数
             if (index > len - 1 || nums[index] > curr){
                 ++count;
                 curr *= 2;
