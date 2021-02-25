@@ -1,4 +1,8 @@
 #include <stdc++.h>
+<<<<<<< HEAD
+=======
+#include <vector>
+>>>>>>> 0ea2c7e... 寒假
 
 using namespace std;
 

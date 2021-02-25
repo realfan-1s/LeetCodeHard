@@ -1,4 +1,8 @@
 #include <stdc++.h>
+<<<<<<< HEAD
+=======
+#include <math.h>
+>>>>>>> 0ea2c7e... 寒假
 
 using namespace std;
 
@@ -10,6 +14,10 @@ public:
         sort(tasks.begin(), tasks.end(), [](const vector<int>& a, const vector<int>& b){
             return a[0] - a[1] < b[0] - b[1];
         });
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 0ea2c7e... 寒假
 
         int ans = 0, consumption = 0;
         for (auto& item : tasks){

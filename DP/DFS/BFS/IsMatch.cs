@@ -16,7 +16,11 @@ public class Solution {
                     dp[i, j] = dp[i - 1, j - 1];
                 else if (p[j - 1] == '*') {
                     if (s[i - 1] == p[j - 2] || p[j - 2] == '.')
+<<<<<<< HEAD
 // dp[i - 1, j - 2]和dp[i, j - 2]只匹配单个字符，dp[i - 1, j]的*匹配大于等于二个字符
+=======
+            // dp[i - 1, j - 2]和dp[i, j - 2]只匹配单个字符，dp[i - 1, j]的*匹配大于等于二个字符
+>>>>>>> 0ea2c7e... 寒假
                         dp[i, j] = dp[i - 1, j - 2] | dp[i, j - 2] | dp[i - 1, j];
                     else
                         dp[i, j] = dp[i, j - 2];
